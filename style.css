@@ -185,6 +185,12 @@ section {
   z-index: -1; /* Place the video behind other content */
 }
 
+@media only screen and (max-width: 767px) {
+  #profile video {
+    display: none; /* Hide the video on small screens */
+  }
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
